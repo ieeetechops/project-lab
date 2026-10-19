@@ -12,7 +12,7 @@ body:
     id: name
     attributes:
       label: Proje adı
-      placeholder: "ör. Digital Archive Belge Zekâsı"
+      placeholder: "ör. OfflineForms"
     validations:
       required: true
   - type: dropdown

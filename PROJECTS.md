@@ -10,15 +10,9 @@ Durum değerleri [yaşam döngüsü](docs/lifecycle.md) aşamalarını izler: `�
 | --- | --- | --- | --- | --- | --- | --- |
 | *Henüz kabul edilmiş proje yok* | | | | | | |
 
-## Aday alanlar
+## Proje kataloğu
 
-Aşağıdaki alanlar program için örnek odaklardır; henüz kabul edilmiş proje değildir. Bir alanda çalışmak isteyen ekip [proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) açmalıdır.
-
-| Alan | Tür | Örnek problem sorusu |
-| --- | --- | --- |
-| Digital Archive ve belge zekâsı | Ürün | Kol arşivindeki dağınık belgeler (tutanak, rapor, sertifika) aranabilir ve ilişkilendirilebilir hale nasıl getirilir? |
-| Machine Learning araştırması | Araştırma | Mevcut yöntemlerin yetersiz kaldığı, ölçülebilir bir alt problemde anlamlı iyileşme sağlanabilir mi? |
-| Açık kaynak mühendislik aracı | Açık kaynak | Mühendislik öğrencilerinin tekrar tekrar elle yaptığı bir iş, bakımı sürdürülebilir bir araçla çözülebilir mi? |
+Ekiplerin seçebileceği 8 alanda 32 projelik katalog için bkz. [catalog/](catalog/README.md). Katalogdaki projeler, bir ekip öneri açıp kabul alana kadar bu sayfada listelenmez. Katalog dışındaki bir proje için de [proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) açılabilir.
 
 ## Tamamlanan ve arşivlenen projeler
 

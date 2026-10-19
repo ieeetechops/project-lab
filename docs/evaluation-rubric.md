@@ -1,8 +1,8 @@
 # Değerlendirme Ölçütleri
 
-Bu ölçütler hem **öneri kabulünde** (K0) hem **final değerlendirmede** (K3) kullanılır. Amaç, "bir şey yaptık" yerine "gerçek bir problemi ölçülebilir şekilde ilerlettik" diyebilen projeleri seçmek ve desteklemektir.
+Bu ölçütler hem **öneri kabulünde** (K0) hem **final değerlendirmede** (K3) kullanılır. Amaç, tanımlı bir problemde ölçülebilir ilerleme sağlayan projeleri seçmek ve desteklemektir.
 
-> **Neden yalnızca metrik yetmez?** "%95 accuracy aldık" cümlesi; hangi probleme, hangi veriye, hangi baseline'a karşı ve kimin işine yarayacak şekilde elde edildiği söylenmedikçe bir sonuç değildir. Basit bir kural tabanlı çözüm %93 alıyorsa, %95'in anlamı çok farklıdır.
+> **Metrik değerlerinin yorumlanması:** Bir metrik değeri; hangi problem, hangi veri ve hangi başlangıç ölçümüyle (baseline) karşılaştırıldığı belirtilmeden sonuç olarak değerlendirilmez. Örneğin basit bir kural tabanlı çözüm %93 doğruluk sağlıyorsa, %95 doğruluk sağlayan bir modelin katkısı bu fark üzerinden değerlendirilir.
 
 ## Öneri değerlendirmesi (K0)
 

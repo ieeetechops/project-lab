@@ -2,12 +2,11 @@
 
 # IEEE Project Lab
 
-**Gerçek problemler · Ölçülebilir sonuçlar · Özgün yaklaşımlar**
-
-IEEE İKÇÜ TechOps bünyesinde öğrencilerin özgün mühendislik problemleri üzerinde çalıştığı proje geliştirme programının yönetişim deposu.
+IEEE İKÇÜ Teknik Operasyonlar ve Altyapı Dairesi Başkanlığı (TechOps) bünyesinde yürütülen öğrenci proje geliştirme programının yönetişim deposu.
 
 [![Yönetişim](https://img.shields.io/badge/Yönetişim-Model-00629B?style=for-the-badge)](GOVERNANCE.md)
-[![Projeler](https://img.shields.io/badge/Projeler-Katalog-2E7D32?style=for-the-badge)](PROJECTS.md)
+[![Katalog](https://img.shields.io/badge/Katalog-32_Proje-2E7D32?style=for-the-badge)](catalog/README.md)
+[![Projeler](https://img.shields.io/badge/Projeler-Durum-5E35B1?style=for-the-badge)](PROJECTS.md)
 [![Öneri](https://img.shields.io/badge/Proje_Öner-181717?style=for-the-badge&logo=github)](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml)
 
 </div>
@@ -16,26 +15,27 @@ IEEE İKÇÜ TechOps bünyesinde öğrencilerin özgün mühendislik problemleri
 
 ## Project Lab nedir?
 
-Project Lab tek bir yazılım değildir. TechOps'a katılan öğrencilerin, iki-üç kişilik ekipler halinde **gerçekten çözülmesi gereken bir problem** üzerinde çalıştığı yapılandırılmış bir program.
+Project Lab, TechOps bünyesinde yürütülen öğrenci proje geliştirme programıdır. Programa katılan öğrenciler iki veya üç kişilik ekipler oluşturur ve [proje kataloğundan](catalog/README.md) seçtikleri ya da kendi önerdikleri bir mühendislik problemi üzerinde 14 haftalık bir dönem boyunca çalışır.
 
-Örneğin TechOps'a altı stajyer katıldığında herkesi aynı ürüne atamak yerine:
+Projeler, çıktı türüne göre dört gruptan birinde yer alır:
 
-| Ekip | Odak | Çıktı türü |
-| --- | --- | --- |
-| 2 kişi | Digital Archive ve belge zekâsı | Ürün / sistem |
-| 2 kişi | Machine Learning araştırması | Araştırma raporu + tekrarlanabilir kod |
-| 2 kişi | Açık kaynak mühendislik aracı | Yayınlanmış açık kaynak paket |
+| Proje türü | Beklenen çıktı |
+| --- | --- |
+| Ürün geliştirme | Kullanıma hazır uygulama, araç veya sistem |
+| Deneysel araştırma | Tekrarlanabilir deney, veri kümesi ve teknik rapor |
+| Kullanıcı araştırması | Kullanıcı çalışması, ölçüm sonuçları ve tasarım önerileri |
+| Yaratıcı mühendislik | Çalışan prototip, algoritma karşılaştırması ve demo |
 
-Her projenin kendi GitHub deposu, teknik belgeleri, testleri ve düzenli sunumları olur.
+Her projenin ayrı bir GitHub deposu, teknik belgeleri, testleri ve dönem içinde düzenli sunumları bulunur.
 
 ## Temel ilkeler
 
-1. **Problem önce gelir.** Her proje kimin, hangi durumda, neden zorlandığını kanıtla açıklar. "Bir model eğitip %95 accuracy aldık" tek başına sonuç değildir.
-2. **Başarı ölçülebilir olmalıdır.** Proje başında bir *baseline*, bir hedef metrik ve bu metriğin nasıl ölçüleceği yazılır.
-3. **Farkı açıkla.** Mevcut çözümler incelenir; projenin onlardan nasıl ayrıldığı (veya neden yeniden yapıldığı) belgelenir.
-4. **IEEE Hub'a bağlı olmak zorunlu değildir.** Proje IEEE'ye, üniversiteye veya daha geniş mühendislik topluluğuna fayda sağlayabilir.
-5. **Açık ve devredilebilir çalışırız.** Kod, belge ve kararlar bir sonraki ekibin devralabileceği şekilde tutulur.
-6. **Etik ve veri güvenliği pazarlık konusu değildir.** Kişisel veri, KVKK ve araştırma etiği her aşamada gözetilir.
+1. **Tanımlı problem.** Her proje, ele aldığı problemi ve bu problemden etkilenen kullanıcıları kanıta dayalı olarak açıklar. Tek başına bir metrik değeri sonuç olarak kabul edilmez.
+2. **Ölçülebilir hedef.** Proje başında bir başlangıç ölçümü (baseline), hedef metrik ve ölçüm yöntemi yazılır.
+3. **Mevcut çalışmalarla karşılaştırma.** Benzer çözümler incelenir; projenin bunlardan farkı veya yeniden geliştirilme gerekçesi belgelenir.
+4. **Kapsam serbestliği.** Projelerin IEEE İKÇÜ'nün iç sistemlerine bağlı olması gerekmez; kola, üniversiteye veya açık kaynak topluluğuna katkı sağlayan projeler kabul edilir.
+5. **Açıklık ve devredilebilirlik.** Kod, belgeler ve kararlar bir sonraki ekibin devralabileceği şekilde tutulur.
+6. **Etik ve veri güvenliği.** Kişisel verilerin korunması, KVKK ve araştırma etiği her aşamada gözetilir.
 
 ## Proje yaşam döngüsü
 
@@ -61,6 +61,8 @@ Ayrıntılar: [Yaşam döngüsü ve kapılar](docs/lifecycle.md)
 | Belge | İçerik |
 | --- | --- |
 | [GOVERNANCE.md](GOVERNANCE.md) | Roller, karar yetkileri ve Değerlendirme Kurulu |
+| [catalog/](catalog/README.md) | 8 alanda 32 projelik katalog; her proje sade dille ve teknik terimleri açıklanarak anlatılır |
+| [catalog/glossary.md](catalog/glossary.md) | Katalogda geçen genel terimlerin sözlüğü |
 | [PROJECTS.md](PROJECTS.md) | Aktif, aday ve arşivlenmiş projeler |
 | [docs/lifecycle.md](docs/lifecycle.md) | Aşamalar, kapı kriterleri ve çıktılar |
 | [docs/evaluation-rubric.md](docs/evaluation-rubric.md) | Öneri ve sonuç değerlendirme ölçütleri |
@@ -73,10 +75,11 @@ Ayrıntılar: [Yaşam döngüsü ve kapılar](docs/lifecycle.md)
 
 ## Nasıl başlarım?
 
-1. [Yaşam döngüsünü](docs/lifecycle.md) ve [değerlendirme ölçütlerini](docs/evaluation-rubric.md) oku.
-2. [Proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) issue'su aç.
-3. Değerlendirme Kurulu'nun geri bildirimine göre öneriyi netleştir.
-4. Kabul edilen proje için [proje sözleşmesini](templates/project-charter.md) doldur ve proje deposunu [standartlara](docs/project-standards.md) göre oluştur.
+1. [Proje kataloğuna](catalog/README.md) göz at, ilgini çeken 2–3 projenin sayfasını oku.
+2. [Yaşam döngüsünü](docs/lifecycle.md) ve [değerlendirme ölçütlerini](docs/evaluation-rubric.md) oku.
+3. Seçtiğin proje için [Project Brief](templates/project-brief.md) doldur ve [proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) issue'su aç.
+4. Değerlendirme Kurulu'nun geri bildirimine göre öneriyi netleştir.
+5. Kabul edilen proje için [proje sözleşmesini](templates/project-charter.md) doldur ve proje deposunu [standartlara](docs/project-standards.md) göre oluştur.
 
 ## İlişkili depolar
 

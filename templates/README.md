@@ -2,6 +2,7 @@
 
 | Şablon | Ne zaman | Nereye konur |
 | --- | --- | --- |
+| [project-brief.md](project-brief.md) | Katalogdan proje seçildiğinde, öneri açılmadan önce | Öneri issue'sunun içeriği |
 | [project-charter.md](project-charter.md) | Öneri kabul edildiğinde (K0) | Proje deposu `docs/charter.md` |
 | [project-readme.md](project-readme.md) | Proje deposu açılırken | Proje deposu `README.md` |
 | [adr.md](adr.md) | Önemli mimari/yöntem kararında | `docs/adr/NNN-baslik.md` |
