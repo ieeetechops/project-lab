@@ -1,0 +1,93 @@
+name: Proje önerisi
+description: Project Lab için yeni bir proje öner
+title: "[Öneri] "
+labels: ["öneri", "aşama:değerlendirme"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Göndermeden önce [yaşam döngüsünü](https://github.com/ieeetechops/project-lab/blob/main/docs/lifecycle.md) ve [değerlendirme ölçütlerini](https://github.com/ieeetechops/project-lab/blob/main/docs/evaluation-rubric.md) oku.
+        Kişisel veri, parola veya gizli bilgi paylaşma.
+  - type: input
+    id: name
+    attributes:
+      label: Proje adı
+      placeholder: "ör. Digital Archive Belge Zekâsı"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Proje türü
+      options:
+        - Ürün / sistem
+        - Araştırma / Machine Learning
+        - Açık kaynak araç
+        - Diğer
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Kim, hangi durumda, neyi yapamıyor veya zorlukla yapıyor?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Problemin kanıtı
+      description: Görüşme, veri, gözlem, şikâyet kaydı veya literatür. Bağlantı ver.
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Mevcut çözümler ve farkımız
+      description: Bugün bu problem nasıl çözülüyor? Önerin onlardan nasıl ayrılıyor?
+    validations:
+      required: true
+  - type: textarea
+    id: metrics
+    attributes:
+      label: Başarı ölçütleri
+      description: Hangi metrik, hangi baseline'a karşı, nasıl ölçülecek? Hedef nedir?
+      placeholder: |
+        Metrik: ...
+        Baseline: ...
+        Hedef: ...
+        Ölçüm yöntemi: ...
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Önerilen yaklaşım
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Etki
+      description: Sonuç IEEE'ye, üniversiteye veya mühendislik topluluğuna nasıl fayda sağlar?
+  - type: textarea
+    id: resources
+    attributes:
+      label: Kaynaklar ve riskler
+      description: Veri, erişim, donanım, dış paydaş ihtiyaçları ve ana riskler.
+  - type: input
+    id: team
+    attributes:
+      label: Ekip
+      placeholder: "@kullanıcı1, @kullanıcı2"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Kontroller
+      options:
+        - label: Problemi bir teknolojiyi denemek için değil, gerçek bir ihtiyaçtan yola çıkarak tanımladım.
+          required: true
+        - label: Proje kişisel veri işliyorsa bunu yukarıda belirttim.
+          required: true
+        - label: Davranış kurallarını okudum ve kabul ediyorum.
+          required: true

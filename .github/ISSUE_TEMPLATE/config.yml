@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Güvenlik bildirimi
+    url: https://github.com/ieeetechops/ieeetechops/blob/main/SECURITY.md
+    about: Güvenlik açıklarını herkese açık issue olarak paylaşma.
+  - name: TechOps genel konular
+    url: https://github.com/ieeetechops/ieeetechops/issues
+    about: Project Lab dışındaki TechOps konuları için.

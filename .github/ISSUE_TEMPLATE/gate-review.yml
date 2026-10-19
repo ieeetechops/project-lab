@@ -1,0 +1,59 @@
+name: Kapı değerlendirmesi
+description: K1, K2 (ara) veya K3 (final) değerlendirmesi için kayıt aç
+title: "[Değerlendirme] <Proje> — K"
+labels: ["değerlendirme"]
+body:
+  - type: input
+    id: project
+    attributes:
+      label: Proje deposu
+      placeholder: "ieeetechops/lab-..."
+    validations:
+      required: true
+  - type: dropdown
+    id: gate
+    attributes:
+      label: Kapı
+      options:
+        - K1 — Yaklaşım onayı
+        - K2 — Ara değerlendirme
+        - K3 — Final değerlendirme
+        - Erken kapanış
+    validations:
+      required: true
+  - type: input
+    id: report
+    attributes:
+      label: Rapor bağlantısı
+      description: Ara değerlendirme veya final raporu
+    validations:
+      required: true
+  - type: input
+    id: release
+    attributes:
+      label: Release / commit
+  - type: textarea
+    id: results
+    attributes:
+      label: Baseline ve sonuç özeti
+    validations:
+      required: true
+  - type: dropdown
+    id: proposed
+    attributes:
+      label: Ekibin önerdiği karar
+      options:
+        - Devam
+        - Kapsam daralt
+        - Pivot
+        - Durdur
+        - Bakım
+        - Sonraki dönem devam
+        - Yayın / dış katkı
+        - Arşiv
+    validations:
+      required: true
+  - type: textarea
+    id: requests
+    attributes:
+      label: Kurul'dan talepler
