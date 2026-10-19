@@ -5,7 +5,7 @@
 IEEE İKÇÜ Teknik Operasyonlar ve Altyapı Dairesi Başkanlığı (TechOps) bünyesinde yürütülen öğrenci proje geliştirme programının yönetişim deposu.
 
 [![Yönetişim](https://img.shields.io/badge/Yönetişim-Model-00629B?style=for-the-badge)](GOVERNANCE.md)
-[![Katalog](https://img.shields.io/badge/Katalog-32_Proje-2E7D32?style=for-the-badge)](catalog/README.md)
+[![Katalog](https://img.shields.io/badge/Katalog-60_Proje-2E7D32?style=for-the-badge)](catalog/README.md)
 [![Projeler](https://img.shields.io/badge/Projeler-Durum-5E35B1?style=for-the-badge)](PROJECTS.md)
 [![Öneri](https://img.shields.io/badge/Proje_Öner-181717?style=for-the-badge&logo=github)](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml)
 
@@ -61,7 +61,7 @@ Ayrıntılar: [Yaşam döngüsü ve kapılar](docs/lifecycle.md)
 | Belge | İçerik |
 | --- | --- |
 | [GOVERNANCE.md](GOVERNANCE.md) | Roller, karar yetkileri ve Değerlendirme Kurulu |
-| [catalog/](catalog/README.md) | 8 alanda 32 projelik katalog; her proje sade dille ve teknik terimleri açıklanarak anlatılır |
+| [catalog/](catalog/README.md) | 15 alanda 60 projelik katalog; her proje sade dille ve teknik terimleri açıklanarak anlatılır |
 | [catalog/glossary.md](catalog/glossary.md) | Katalogda geçen genel terimlerin sözlüğü |
 | [PROJECTS.md](PROJECTS.md) | Aktif, aday ve arşivlenmiş projeler |
 | [docs/lifecycle.md](docs/lifecycle.md) | Aşamalar, kapı kriterleri ve çıktılar |
@@ -86,3 +86,7 @@ Ayrıntılar: [Yaşam döngüsü ve kapılar](docs/lifecycle.md)
 - [ieeetechops/ieeetechops](https://github.com/ieeetechops/ieeetechops): TechOps genel yönetişimi, katkı ve güvenlik politikaları
 
 > Bu depo kişisel veri, parola, erişim anahtarı veya gizli yapılandırma içermez. Güvenlik bildirimleri için [TechOps güvenlik politikasını](https://github.com/ieeetechops/ieeetechops/blob/main/SECURITY.md) kullan.
+
+## İletişim
+
+Project Lab ile ilgili sorular, KVKK kapsamındaki başvurular ve güvenlik bildirimleri için: **sametutku16@gmail.com**

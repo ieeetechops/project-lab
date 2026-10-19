@@ -1,6 +1,6 @@
 # Project Lab Proje Kataloğu
 
-> **8 mühendislik alanı · 32 proje · her biri tek başına okunup anlaşılabilecek şekilde yazıldı.**
+> **15 mühendislik alanı · 60 proje · her biri tek başına okunup anlaşılabilecek şekilde yazıldı.**
 
 Bu katalog, Project Lab'e katılan stajyerlerin "ne yapabilirim?" sorusuna cevap bulması için hazırlandı. Her proje sayfası, daha önce o konuda hiç çalışmamış birinin bile okuyup projeyi anlayabileceği şekilde yazıldı.
 
@@ -112,6 +112,76 @@ Her proje bir yönetim paneli veya API olmak zorunda değil.
 | 31 | [AdaptivePuzzle](projects/31-adaptivepuzzle.md) | Oyuncuya göre zorlaşan bulmaca | Orta |
 | 32 | [VisualCompute](projects/32-visualcompute.md) | Tarayıcıda GPU ile hesaplama laboratuvarı | İleri |
 
+### I. Robotik ve otonom sistemler
+Simülasyon ve düşük maliyetli donanımla yürütülebilen robotik projeleri.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 33 | [PathBench](projects/33-pathbench.md) | Robot yol planlama algoritmalarının karşılaştırması | Orta |
+| 34 | [LineFollower Lab](projects/34-linefollower-lab.md) | Çizgi izleyen robotta kontrol yöntemleri | Başlangıç–Orta |
+| 35 | [SLAM Arena](projects/35-slam-arena.md) | Haritalama ve konum belirleme yöntemlerinin karşılaştırması | İleri |
+| 36 | [SwarmSim](projects/36-swarmsim.md) | Robot sürüsü davranışlarının simülasyonu | Orta |
+
+### J. Gömülü sistemler ve nesnelerin interneti
+Sensörler, mikrodenetleyiciler ve kablosuz cihazlar üzerine projeler.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 37 | [LowPower Node](projects/37-lowpower-node.md) | Pille çalışan sensörlerde enerji tasarrufu | Orta |
+| 38 | [CampusAir](projects/38-campusair.md) | Düşük maliyetli hava kalitesi sensör ağı ve kalibrasyonu | Orta |
+| 39 | [TinyML Bench](projects/39-tinyml-bench.md) | Mikrodenetleyicide çalışan yapay zekâ modelleri | İleri |
+| 40 | [OTASafe](projects/40-otasafe.md) | Kesintiye dayanıklı kablosuz yazılım güncellemesi | Orta–İleri |
+
+### K. Bilgisayarlı görü
+Görüntülerden bilgi çıkaran ve bunu ölçülebilir şekilde değerlendiren projeler.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 41 | [DocScan](projects/41-docscan.md) | Telefon fotoğrafından belge tarama | Başlangıç–Orta |
+| 42 | [OccupancySense](projects/42-occupancysense.md) | Kimseyi tanımadan doluluk ölçümü | Orta |
+| 43 | [RobustVision](projects/43-robustvision.md) | Görüntü modellerinin bozulmalara dayanıklılığı | Orta |
+| 44 | [SignSpell](projects/44-signspell.md) | Türk İşaret Dili parmak alfabesi tanıma | Orta–İleri |
+
+### L. Oyun teknolojileri
+Oyun geliştirmenin ağ, yapay zekâ, fizik ve oyuncu deneyimi boyutları.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 45 | [NetcodeLab](projects/45-netcodelab.md) | Çok oyunculu oyunlarda gecikme telafisi | İleri |
+| 46 | [GameAI Arena](projects/46-gameai-arena.md) | Oyun yapay zekâsı yöntemlerinin karşılaştırması | Orta |
+| 47 | [PhysicsBench](projects/47-physicsbench.md) | Oyun fiziğinde hesaplama yöntemleri | Orta |
+| 48 | [PlaytestKit](projects/48-playtestkit.md) | Oyun testi için kayıt ve analiz aracı | Orta |
+
+### M. Programlama dilleri ve derleyici araçları
+Programlama dillerinin ve geliştirici araçlarının iç yapısına yönelik projeler.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 49 | [MiniLang](projects/49-minilang.md) | Eğitim amaçlı programlama dili ve yorumlayıcı | Orta |
+| 50 | [FriendlyErrors](projects/50-friendlyerrors.md) | Yeni başlayanlar için anlaşılır hata mesajları | Başlangıç–Orta |
+| 51 | [RegexLab](projects/51-regexlab.md) | Düzenli ifade motorları ve ReDoS tespiti | Orta |
+| 52 | [CloneSpotter](projects/52-clonespotter.md) | Kod tekrarı ve benzerlik tespiti | Orta |
+
+### N. Bilimsel hesaplama ve simülasyon
+Sayısal yöntemler ve simülasyon ile gerçek dünya sistemlerini modelleyen projeler.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 53 | [EpiSim](projects/53-episim.md) | Salgın yayılımında iki modelleme yaklaşımı | Orta |
+| 54 | [TrafficFlow](projects/54-trafficflow.md) | Kavşak simülasyonunda sinyal stratejileri | Orta |
+| 55 | [ParallelBench](projects/55-parallelbench.md) | Bilimsel hesaplamada paralelleştirme yöntemleri | Orta–İleri |
+| 56 | [HeatSolver](projects/56-heatsolver.md) | Isı denkleminin sayısal çözümü | Orta |
+
+### O. Ses, müzik ve dijital sanat teknolojileri
+Ses işleme, müzik bilgi erişimi ve fiziksel dijital sanat üretimi.
+
+| # | Proje | Kısaca | Zorluk |
+| --- | --- | --- | --- |
+| 57 | [BeatTrack](projects/57-beattrack.md) | Müzikte tempo ve vuruş tespiti | Orta |
+| 58 | [NoiseClean](projects/58-noiseclean.md) | Konuşma kayıtlarında gürültü azaltma | Orta |
+| 59 | [SonicCanvas](projects/59-soniccanvas.md) | Sesi canlı görsele dönüştüren sanat uygulaması | Başlangıç–Orta |
+| 60 | [PlotterPath](projects/60-plotterpath.md) | Kalemli çizici için çizim yolu optimizasyonu | Orta |
+
 ---
 
 ## Hangilerini değerlendirmeliyiz?
@@ -164,8 +234,6 @@ Araştırma tarafında **başarılı sonuç bulamamak da geçerli bir çıktıd�
 
 ## Katalog büyümeye açık
 
-Bu 32 proje nihai liste değil, ilk katalog. Şu alanlarda yeni projeler eklenmesi planlanıyor:
-
-robotik · gömülü sistemler · bilgisayarlı görü · oyun teknolojileri · programlama dili araçları · bilimsel hesaplama · dijital sanat · veri görselleştirme
+Katalog nihai bir liste değildir. Veri görselleştirme alanındaki projeler hazırlanmaktadır; ilerleyen dönemlerde biyomedikal mühendislik, enerji sistemleri ve kuantum hesaplama gibi alanların da eklenmesi planlanmaktadır.
 
 Yeni bir katalog projesi önermek için [proje sayfası şablonunu](projects/_template.md) kopyalayıp PR aç.

@@ -12,7 +12,7 @@ Durum değerleri [yaşam döngüsü](docs/lifecycle.md) aşamalarını izler: `�
 
 ## Proje kataloğu
 
-Ekiplerin seçebileceği 8 alanda 32 projelik katalog için bkz. [catalog/](catalog/README.md). Katalogdaki projeler, bir ekip öneri açıp kabul alana kadar bu sayfada listelenmez. Katalog dışındaki bir proje için de [proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) açılabilir.
+Ekiplerin seçebileceği 15 alanda 60 projelik katalog için bkz. [catalog/](catalog/README.md). Katalogdaki projeler, bir ekip öneri açıp kabul alana kadar bu sayfada listelenmez. Katalog dışındaki bir proje için de [proje önerisi](https://github.com/ieeetechops/project-lab/issues/new?template=project-proposal.yml) açılabilir.
 
 ## Tamamlanan ve arşivlenen projeler
 
