@@ -89,4 +89,4 @@ Ayrıntılar: [Yaşam döngüsü ve kapılar](docs/lifecycle.md)
 
 ## İletişim
 
-Project Lab ile ilgili sorular, KVKK kapsamındaki başvurular ve güvenlik bildirimleri için: **sametutku16@gmail.com**
+Project Lab ile ilgili sorular, KVKK kapsamındaki başvurular ve güvenlik bildirimleri için: **techopsieee@gmail.com**
